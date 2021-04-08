@@ -41,7 +41,24 @@ typescript 命令搭建项目基本结构。
 }
 ```
 
-###
+###### .gitignore
+
+.gitignore 是项目根目录当中的文件，定义 git 在版本控制当中需要忽略的文件，使用脚手架时已经帮助我们生成了一个.gitignore 文件，一般来说不需要我们特殊定义
+
+###### 更改镜像源
+
+1，直接更改 npm 的配置 在命令行输入
+
+```
+    npm config set registry https://registry.npm.taobao.org
+```
+
+    这样在使用npm或者创建项目的时候，就会从tabbao镜像去下载
+
+2，上面的方案只适合单人开发的时候，自己修改电脑上的 npm 源，如果多人开发难免每个人都  
+ 修改会比较麻烦。  
+ 首先创建.npmrc 文件 touch .npmrc
+在文件内输入 registry=https://registry.npm.taobao.org/
 
 skdjaks
 
