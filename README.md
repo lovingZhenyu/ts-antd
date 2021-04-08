@@ -4,12 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # 项目主要练习点
 
-1，项目常用配置文件的作用及配置方式
-2，eslint，stylelint 及 prettier 的配置
-3，代码提交规范的第三方工具强制约束方式实现
-4，webpack 配置 react+typescript 开发与生产环境 及其优化
-5，rollup 构建组件打包环境并发布 npm 流程
-6，利用 react-testing-library 对 react 组件进行测试
+1，项目常用配置文件的作用及配置方式  
+2，eslint，stylelint 及 prettier 的配置  
+3，代码提交规范的第三方工具强制约束方式实现  
+4，webpack 配置 react+typescript 开发与生产环境 及其优化  
+5，rollup 构建组件打包环境并发布 npm 流程  
+6，利用 react-testing-library 对 react 组件进行测试  
 7，持续集成（CI）， GitHub Actions
 
 ### 使用脚手架搭建项目
