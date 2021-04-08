@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# react-ts-com
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+这个项目是从 0 搭建一个 react-ts 的 hooks 组件库
 
-# 项目主要练习点
+## 项目主要练习点
 
 1，项目常用配置文件的作用及配置方式  
 2，eslint，stylelint 及 prettier 的配置  
@@ -12,11 +12,34 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 6，利用 react-testing-library 对 react 组件进行测试  
 7，持续集成（CI）， GitHub Actions
 
-### 使用脚手架搭建项目
+### 项目搭建
 
-在本地建立一个 Git 仓库 后使用 npx create-react-app appName --template typescript 命令搭建项目基本结构。
+在本地建立一个 Git 仓库 后使用 npx create-react-app appName --template
+typescript 命令搭建项目基本结构。  
 提交代码后， 使用 git remote add origin 远程仓库地址 ，将本地仓库与远程仓库关联
 然后就可以推送代码拉。
+
+###### packge.json 配置
+
+```json
+{
+  "name": "ts-antd",
+  "version": "0.1.0",
+  "description": "react + typescript project for some componts like antDisgn", //项目描述，可提升github搜索优先级
+  "license": "MIT", //项目协议，MIT开源，
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lovingZhenyu/ts-antd"
+  },
+  "keywords": ["react-typescript", "antd"],
+  "author": {
+    "name": "ZhenyuXu",
+    "url": "https://github.com/lovingZhenyu",
+    "email": "xu_zhen_yu_1999@163.com"
+  },
+  "homepage": "https://github.com/lovingZhenyu/ts-antd#readme"
+}
+```
 
 ###
 

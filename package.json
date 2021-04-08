@@ -3,6 +3,17 @@
   "version": "0.1.0",
   "description": "react + typescript project for some componts like antDisgn",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lovingZhenyu/ts-antd"
+  },
+  "keywords": ["react-typescript","antd"],
+  "author": {
+    "name": "ZhenyuXu",
+    "url": "https://github.com/lovingZhenyu",
+    "email": "xu_zhen_yu_1999@163.com"
+  },
+  "homepage": "https://github.com/lovingZhenyu/ts-antd#readme",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
