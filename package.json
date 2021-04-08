@@ -1,6 +1,8 @@
 {
   "name": "ts-antd",
   "version": "0.1.0",
+  "description": "react + typescript project for some componts like antDisgn",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
