@@ -53,12 +53,11 @@ typescript 命令搭建项目基本结构。
     npm config set registry https://registry.npm.taobao.org
 ```
 
-    这样在使用npm或者创建项目的时候，就会从tabbao镜像去下载
+这样在使用 npm 或者创建项目的时候，就会从 tabbao 镜像去下载
 
-2，上面的方案只适合单人开发的时候，自己修改电脑上的 npm 源，如果多人开发难免每个人都  
- 修改会比较麻烦。  
- 首先创建.npmrc 文件 touch .npmrc
-在文件内输入 registry=https://registry.npm.taobao.org/
+2，上面的方案只适合单人开发的时候，自己修改电脑上的 npm 源，如果多人开发难免每个人都修改会比较麻烦。  
+ 首先创建.npmrc 文件 touch .npmrc  
+ 在文件内输入 registry=https://registry.npm.taobao.org/
 
 skdjaks
 
