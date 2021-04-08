@@ -2,14 +2,23 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# 项目主要练习点
 
-In the project directory, you can run:
+1，项目常用配置文件的作用及配置方式
+2，eslint，stylelint 及 prettier 的配置
+3，代码提交规范的第三方工具强制约束方式实现
+4，webpack 配置 react+typescript 开发与生产环境 及其优化
+5，rollup 构建组件打包环境并发布 npm 流程
+6，利用 react-testing-library 对 react 组件进行测试
+7，持续集成（CI）， GitHub Actions
 
-### `yarn start`
+### 使用脚手架搭建项目
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+在本地建立一个 Git 仓库 后使用 npx create-react-app appName --template typescript 命令搭建项目基本结构。
+提交代码后， 使用 git remote add origin 远程仓库地址 ，将本地仓库与远程仓库关联
+然后就可以推送代码拉。
+
+###
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
